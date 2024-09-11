@@ -28,7 +28,7 @@ function App() {
         setHolidays(data);
         setLoadingLibur(false);
       } catch (error) {
-        console.error("Error fetching holidays:", error);
+        console.error("Terjadi kesalahan saat mengambil hari libur:", error);
         setLoadingLibur(false);
       }
     }
@@ -62,12 +62,13 @@ function App() {
           <a
             className="text-center mt-5 font-semibold p-3 bg-white bg-opacity-30 rounded-full text-white flex gap-x-1 items-center justify-center"
             target="_new"
-            href="https://github.com/rizkytegar/indonesian-digital-clock"
+            href="https://biolink.eu.org/fuds"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-github h-5 w-5" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-            </svg>
-            Kontribusi Di Github
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 6v12m8-12v12l-8-6 8-6Z"/>
+</svg>
+
+            Airdrop Hunter
           </a>
         </div>
       </div>
